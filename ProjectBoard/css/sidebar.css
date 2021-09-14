@@ -1,0 +1,19 @@
+.sidebar{
+  margin: 0;
+  padding: 0;
+  top: 1;
+  width: 200px;
+  background-color: #261C2C;
+  height: 652px;
+  overflow: auto;
+}
+.nav li {
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+.nav li:hover {
+  border-bottom: 3px solid #eee;
+}
+.nav li.active {
+  border-bottom: 3px solid #338ecf;
+  background-color: #eee;
+}

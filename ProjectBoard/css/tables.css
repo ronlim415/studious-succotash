@@ -1,0 +1,28 @@
+#content{
+  margin-top: 2%;
+  margin-left: 18%;
+  width: 80%;
+}
+#card-body {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#card-body td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#card-body tr:nth-child(even){background-color: #f2f2f2;}
+
+#card-body tr:hover {background-color: #ddd;}
+
+#card-body th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #035397;
+  color: white;
+  text-align: center;
+}

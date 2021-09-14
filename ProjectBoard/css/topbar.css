@@ -1,0 +1,29 @@
+.topbar{
+  overflow: hidden;
+  background-color: #035397;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo h2{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.user-logout .message{
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.user-logout a:hover {
+  order-bottom: 3px solid #eee;
+  color: black;
+}
